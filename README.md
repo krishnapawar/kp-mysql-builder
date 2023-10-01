@@ -1,6 +1,6 @@
-# kp-mysql-models
+# kp-mysql-builder
 
->The `kp-mysql-models` library simplifies interactions with MySQL databases. It streamlines tasks such as creating, inserting, updating, and deleting records, and handles complex operations like joins, pagination, and conditionals. Its intuitive and efficient approach can greatly expedite development, saving both time and effort.
+>The `kp-mysql-builder` is a mysql query builder library that simplifies interactions with MySQL databases. It streamlines tasks such as creating, inserting, updating, and deleting records, and handles complex operations like joins, pagination, and conditionals. Its intuitive and efficient approach can greatly expedite development, saving both time and effort.
 
 
 > import all method.
@@ -15,7 +15,7 @@ const {
   update,
   dbJoin,
   dbWith,
-} = require("kp-mysql-models");
+} = require("kp-mysql-builder");
 ```
 
 
